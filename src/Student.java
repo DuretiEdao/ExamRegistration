@@ -6,6 +6,7 @@ public class Student {
         examYear = 2026; fee = 60000;
         System.out.println("1. STATIC: exam settings loaded");
     }
+    //Instance block runs every time an object is created
     {
         status = "Pending"; centre = "Kampala Centre";
         System.out.println("2. INSTANCE: defaults set");
