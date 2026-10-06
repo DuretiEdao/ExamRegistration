@@ -15,6 +15,7 @@ public class Student {
         this.name = name;
         System.out.println("3. CONSTRUCTOR: " + name + " registered");
     }
+    //Main method: entry point of the program
     public static void main(String[] args) {
         System.out.println("Main started");
         new Student("Siwoye");
