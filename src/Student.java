@@ -1,7 +1,7 @@
 public class Student {
     static int examYear, fee;
     String name, status, centre;
-
+// Static block runs once when the class is loaded
     static {
         examYear = 2026; fee = 60000;
         System.out.println("1. STATIC: exam settings loaded");
