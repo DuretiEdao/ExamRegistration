@@ -10,6 +10,7 @@ public class Student {
         status = "Pending"; centre = "Kampala Centre";
         System.out.println("2. INSTANCE: defaults set");
     }
+    //constructor runs last, stores the student's name
     Student(String name) {
         this.name = name;
         System.out.println("3. CONSTRUCTOR: " + name + " registered");
