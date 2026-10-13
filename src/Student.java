@@ -1,6 +1,7 @@
 public class Student {
     //static variables shared exam settings for all students
     static int examYear, fee;
+    //Instance variables: each student has their own copy
     String name, status, centre;
 
     static {
