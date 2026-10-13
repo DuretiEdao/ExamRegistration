@@ -1,4 +1,5 @@
 public class Student {
+    //static variables shared exam settings for all students
     static int examYear, fee;
     String name, status, centre;
 
