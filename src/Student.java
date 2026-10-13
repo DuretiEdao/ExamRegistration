@@ -11,6 +11,7 @@ public class Student {
         System.out.println("2. INSTANCE: defaults set");
     }
     Student(String name) {
+        //Stores the student's name in the new object
         this.name = name;
         System.out.println("3. CONSTRUCTOR: " + name + " registered");
     }
