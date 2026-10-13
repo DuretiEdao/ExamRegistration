@@ -17,6 +17,7 @@ public class Student {
     }
     public static void main(String[] args) {
         System.out.println("Main started");
+       //creates two students to show the block execution order
         new Student("Siwoye");
         new Student("Winta");
     }
