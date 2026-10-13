@@ -3,6 +3,7 @@ public class Student {
     String name, status, centre;
 
     static {
+        //Looads the geeral exam settings(year and registration fee)
         examYear = 2026; fee = 60000;
         System.out.println("1. STATIC: exam settings loaded");
     }
